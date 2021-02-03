@@ -1,0 +1,77 @@
+html {
+  font-size: 16px;
+  line-height: 1.4;
+  font-family: 'Lato', sans-serif;
+}
+body {
+  margin: 0;
+  box-sizing: border-box;
+  background: linear-gradient(
+    #0965c0,
+    #285eb9,
+    #4857b1,
+    #6750aa,
+    #8648a3,
+    #a6419b,
+    #c53a94
+  );
+}
+
+p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.container {
+  height: 100vh;
+  width: 90%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#waiting-message p {
+  font-size: 3rem;
+  text-align: center;
+  display: none;
+}
+#app-container {
+  display: block;
+  text-align: center;
+  width: 100%;
+  max-width: 900px;
+  margin: 0 auto;
+}
+#keycode {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+#event-info {
+  display: flex;
+  flex-direction: column;
+}
+#event-info div {
+  margin-bottom: 2em;
+}
+.info-title {
+  font-size: 1rem;
+  font-weight: 700;
+  margin-bottom: 0.5em;
+}
+.info-value {
+  font-size: 1.5rem;
+}
+
+@media (min-width: 700px) {
+  #keycode {
+    font-size: 5rem;
+    margin-bottom: 4rem;
+  }
+  #event-info {
+    width: 100%;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+}

@@ -4,25 +4,33 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>🔑Kode</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
     <div class="container">
       <div id="waiting-message">
         <p>Press a key to see the event keycode</p>
       </div>
-      <div id="keycode"></div>
-      <div id="event-info">
-        <div id="event-key">
-          <p class="info-tite">event.key</p>
-          <p class="info-value"></p>
-        </div>
-        <div id="event-code">
-          <p class="info-tite">event.code</p>
-          <p class="info-value"></p>
-        </div>
-        <div id="event-which">
-          <p class="info-tite">event.which</p>
-          <p class="info-value"></p>
+      <div id="app-container">
+        <div id="keycode">16</div>
+        <div id="event-info">
+          <div id="event-key">
+            <p class="info-title">event.key</p>
+            <p class="info-value">shift</p>
+          </div>
+          <div id="event-code">
+            <p class="info-title">event.code</p>
+            <p class="info-value">shift.left</p>
+          </div>
+          <div id="event-which">
+            <p class="info-title">event.which</p>
+            <p class="info-value">16</p>
+          </div>
         </div>
       </div>
     </div>
