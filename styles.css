@@ -35,10 +35,9 @@ p {
 #waiting-message p {
   font-size: 3rem;
   text-align: center;
-  display: none;
 }
 #app-container {
-  display: block;
+  display: none;
   text-align: center;
   width: 100%;
   max-width: 900px;
