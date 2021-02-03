@@ -5,7 +5,6 @@ function displayKey(event) {
   document.querySelector('#waiting-message').style.display = 'none';
   document.querySelector('#app-container').style.display = 'block';
   // populate fields
-
   document.querySelector('#keycode').innerHTML = event.keyCode;
   document.querySelector('#event-code p.info-value').innerHTML = event.code;
   document.querySelector('#event-key p.info-value').innerHTML = event.key;
